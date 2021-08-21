@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d31f001-19fa-4782-a805-d62f2852bdcb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="920">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guido_singleton.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/player.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/set.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>winner</find>
+      <find>name</find>
+      <find>self.name</find>
+      <find>.name</find>
+      <find>self.counter</find>
+      <find>self.tie_breaker_mode</find>
+      <find>reset</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>print</replace>
+      <replace>on_advantage</replace>
+      <replace>game_winner</replace>
+      <replace>id</replace>
+      <replace>self.Id</replace>
+      <replace>.Id</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\tennis_scoring_system</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../AdvanceProgramming/BCDE321_ExamNotesSubmission_Gazelle Lowcay/hasAdapterResit1.py" />
+        <option value="$PROJECT_DIR$/model_tennis_scoring/player.py" />
+        <option value="$PROJECT_DIR$/model_tennis_scoring/match.py" />
+        <option value="$PROJECT_DIR$/model_tennis_scoring/__init__.py" />
+        <option value="$PROJECT_DIR$/model_tennis_scoring/game.py" />
+        <option value="$PROJECT_DIR$/model_tennis_scoring/set.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_match.py" />
+        <option value="$PROJECT_DIR$/../AdvanceProgramming/examPart2/after/guidoSingleton.py" />
+        <option value="$PROJECT_DIR$/guido_singleton.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/scratch.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_game_rules.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_ti_breaker_rule.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_tie_breaker_rules.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_tie_breaker_rule.py" />
+        <option value="$PROJECT_DIR$/tennis_scoring_unittests/test_set_rules.py" />
+        <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/match.py" />
+        <option value="$PROJECT_DIR$/test_cases_for_tennis_scoring/test_game_rules.py" />
+        <option value="$PROJECT_DIR$/set.py" />
+        <option value="$PROJECT_DIR$/test_cases_for_tennis_scoring/test_set_rules.py" />
+        <option value="$PROJECT_DIR$/player.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1600" />
+    <option name="y" value="117" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tennis_scoring_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_scoring_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_scoring_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tennis_scoring_unittests" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tennis_scoring_system\tennis_scoring_unittests" />
+      <recent name="D:\tennis_scoring_system" />
+      <recent name="D:\tennis_scoring_system\model_tennis_scoring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_game_rules.TestGameRules">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Gazelle Lowcay\readMatchAlt.py\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="match" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Gazelle Lowcay\readMatchAlt.py\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/match.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tennis_scoring_unittests.test_game_rules.TestGameRules" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tennis_scoring_unittests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tennis_scoring_unittests.test_game_rules.TestGameRules&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_cases_for_tennis_scoring.test_set_rules.TestSetRules" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_for_tennis_scoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cases_for_tennis_scoring.test_set_rules.TestSetRules&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_game_rules.TestGameRules" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_for_tennis_scoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_game_rules.TestGameRules&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_set_rules.TestSetRules.test_the_scoring_of_tie_breaker_is_change_to_counting_points" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_for_tennis_scoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_set_rules.TestSetRules.test_the_scoring_of_tie_breaker_is_change_to_counting_points&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_game_rules.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_for_tennis_scoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases_for_tennis_scoring/test_game_rules.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_set_rules.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tennis_scoring_system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases_for_tennis_scoring" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases_for_tennis_scoring/test_set_rules.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_game_rules.TestGameRules" />
+        <item itemvalue="Python tests.Unittests in test_set_rules.py" />
+        <item itemvalue="Python.match" />
+        <item itemvalue="Python tests.Unittests in test_game_rules.py" />
+        <item itemvalue="Python tests.Unittests for test_set_rules.TestSetRules.test_the_scoring_of_tie_breaker_is_change_to_counting_points" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d31f001-19fa-4782-a805-d62f2852bdcb" name="Default Changelist" comment="" />
+      <created>1629416921059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629416921059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_set_rules_TestSetRules_test_tie_breaker_game_continue_until_player_gets_above_7points_and_2points_more_than_opponent - 2021.08.22 at 10h 43m 25s.xml">
+      <configuration name="Unittests for test_set_rules.TestSetRules.test_tie_breaker_game_continue_until_player_gets_above_7points_and_2points_more_than_opponent" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_set_rules_TestSetRules_test_tie_breaker_game_continue_until_player_gets_above_7points_and_2points_more_than_opponent - 2021.08.22 at 10h 43m 41s.xml">
+      <configuration name="Unittests for test_set_rules.TestSetRules.test_tie_breaker_game_continue_until_player_gets_above_7points_and_2points_more_than_opponent" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_set_rules_TestSetRules_test_tie_breaker_game_is_won_when_player_gets_7_points_and_2_more_than_opponent - 2021.08.22 at 10h 44m 46s.xml">
+      <configuration name="Unittests for test_set_rules.TestSetRules.test_tie_breaker_game_is_won_when_player_gets_7_points_and_2_more_than_opponent" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_set_rules_py - 2021.08.22 at 10h 44m 51s.xml">
+      <configuration name="Unittests in test_set_rules.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_set_rules_TestSetRules_test_the_scoring_of_tie_breaker_is_change_to_counting_points - 2021.08.22 at 10h 45m 14s.xml">
+      <configuration name="Unittests for test_set_rules.TestSetRules.test_the_scoring_of_tie_breaker_is_change_to_counting_points" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_set_rules_py - 2021.08.22 at 10h 45m 25s.xml">
+      <configuration name="Unittests in test_set_rules.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_game_rules_py - 2021.08.22 at 10h 45m 36s.xml">
+      <configuration name="Unittests in test_game_rules.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_set_rules_py - 2021.08.22 at 10h 45m 39s.xml">
+      <configuration name="Unittests in test_set_rules.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_set_rules_py - 2021.08.22 at 10h 49m 02s.xml">
+      <configuration name="Unittests in test_set_rules.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_game_rules_TestGameRules - 2021.08.22 at 10h 49m 15s.xml">
+      <configuration name="Unittests for test_game_rules.TestGameRules" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2881907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3488624" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2881907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3488624" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../AdvanceProgramming/BCDE321_ExamNotesSubmission_Gazelle Lowcay/hasAdapterResit1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/test.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/match.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/game.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/player.py" />
+    <entry file="file://$PROJECT_DIR$/model_tennis_scoring/set.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AdvanceProgramming/examPart2/after/guidoSingleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="679" selection-start-line="679" selection-end-line="679" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_scoring_unittests/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_scoring_unittests/test_tie_breaker_rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_scoring_unittests/test_tie_breaker_rule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases_for_tennis_scoring/test_set_rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="343" column="38" lean-forward="true" selection-start-line="343" selection-start-column="38" selection-end-line="343" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases_for_tennis_scoring/test_game_rules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guido_singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

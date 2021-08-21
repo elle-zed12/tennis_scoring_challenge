@@ -1,0 +1,410 @@
+import unittest
+from match import Match
+
+
+class TestSetRules(unittest.TestCase):
+
+    def test_set_is_won_when_player_won_6games_and_2games_more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        # game1 player 1 wins 1-0
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game2 player 1 wins  2-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game3 player 1 wins 3-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game4 player 1 wins 4-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game5 player 2 wins 4-1
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game6 player 2 wins 4-2
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game7 player 1 wins 5-2
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game8 player 1 wins 6-2 set is won
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        self.assertEqual('6-2, ', match.score())
+
+    def test_set_is_won_when_player_won_6games_and_exactly_2games_more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        # game1 player 1 wins 1-0
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game2 player 1 wins  2-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game3 player 1 wins 3-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game4 player 1 wins 4-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game5 player 2 wins 4-1
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game6 player 2 wins 4-2
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game7 player 2 wins 4-3
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game8 player 2 wins 4-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game9 player 1 wins 5-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game10 player 1 wins 6-4 set is won
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        self.assertEqual('6-4, ', match.score())
+
+    def test_set_is_NOT_won_when_player_won_6games_and_only_1_game_more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game2 player 1 wins  2-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game3 player 1 wins 3-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game4 player 1 wins 4-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game5 player 2 wins 4-1
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game6 player 2 wins 4-2
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game7 player 2 wins 4-3
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game8 player 2 wins 4-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game9 player 1 wins 5-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game10 player 2 wins 5-5
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game11 player 1 wins 6-5
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game12 player 1 wins 6-6
+        # tie breaker mode will be activated with game won status 6-6
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # scoring of the game will be by points instead of 15, 30 etc.
+        self.assertEqual('6-6, 2-4', match.score())
+
+    def test_if_both_player_won_6games_tie_breaker_status_will_be_activated(self):
+        match = Match('player 1', 'player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game2 player 1 wins  2-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game3 player 1 wins 3-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game4 player 1 wins 4-0
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game5 player 2 wins 4-1
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game6 player 2 wins 4-2
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game7 player 2 wins 4-3
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game8 player 2 wins 4-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game9 player 1 wins 5-4
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game10 player 2 wins 5-5
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        # game11 player 1 wins 6-5
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        # game12 player 1 wins 6-6
+        # set.add_game() will be invoked with game won status 6-6
+        match.set.add_game(match.player1, match.player2)
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        self.assertEqual(True, match.set.tie_breaker_mode)
+
+    def test_the_scoring_of_tie_breaker_is_change_to_counting_points(self):
+        match = Match('player 1', 'player 2')
+        # hard coding the game won by players for testing
+        match.player1.game_won = 6
+        match.player2.game_won = 6
+        match.game.counter = match.player1.game_won + match.player2.game_won
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        self.assertEqual('6-6, 5-2', match.score())
+
+    def test_tie_breaker_game_is_won_when_player_gets_7_points_and_2_more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        match.player1.game_won = 6
+        match.player2.game_won = 6
+        match.game.counter = match.player1.game_won + match.player2.game_won
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        self.assertEqual('player 1', match.set.winner.Id)
+
+    def test_tie_breaker_game_is_NOT_won_when_player_gets_7points_and_only_1more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        match.player1.game_won = 6
+        match.player2.game_won = 6
+        match.game.counter = match.player1.game_won + match.player2.game_won
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        self.assertIsNone(match.set.winner)
+
+    def test_tie_breaker_game_continue_until_player_gets_above_7points_and_2points_more_than_opponent(self):
+        match = Match('player 1', 'player 2')
+        match.player1.game_won = 6
+        match.player2.game_won = 6
+        match.game.counter = match.player1.game_won + match.player2.game_won
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        match.point_won_by('player 2')
+        match.point_won_by('player 1')
+        match.point_won_by('player 1')
+        self.assertEqual('7-6, 8-6', match.score())
+
+
+if __name__ == '__main__':
+    unittest.main()
+
