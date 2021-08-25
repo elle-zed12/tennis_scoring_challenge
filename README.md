@@ -12,11 +12,11 @@ Must
 4. Display the status of the Set scoring
 5. Refactor code. Eliminate object creation inside a concrete class specifically inside the Match class to decouple classes from each other( consider object creation pattern)
 
-Could
+Should
 
 1. Add user interface
 2. Add controller
 
-Should
+Could
 
 3. Write in a different programming language
