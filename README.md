@@ -1,4 +1,4 @@
-# tennis_scoring_challenge
+# tennis_scoring
 This is a Tennis scoring system. 16 test cases were written and passed to ensure that 
 the rules for the set scoring(including the tiebreaker rule) and the game scoring are correct.
 
